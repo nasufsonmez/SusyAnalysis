@@ -1,0 +1,25 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=CMSSWData version=2.0>
+<Client>
+ <Environment name=CMSSWDATA_BASE>
+ </Environment>
+ <Environment name=CMSSW_DATA_PATH default="$CMSSWDATA_BASE">
+ </Environment>
+</Client>
+<Runtime name=CMSSW_DATA_PATH value="$CMSSWDATA_BASE" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-Geometry-CaloTopology/1" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-MagneticField-Interpolation/1" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-RecoParticleFlow-PFBlockProducer/1" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-RecoTracker-RingESSource/1" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-RecoTracker-RoadMapESSource/1" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-Validation-EcalDigis/1" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-Validation-EcalHits/1" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-Validation-EcalRecHits/1" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-Validation-Geometry/1" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-Validation-HcalHits/1" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-SimG4CMS-Calo/3" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-FastSimulation-MaterialEffects/1" type=path handler=warn>
+<Runtime name=CMSSW_SEARCH_PATH value="$CMSSWDATA_BASE/data-FastSimulation-PileUpProducer/1" type=path handler=warn>
+
+</Tool>

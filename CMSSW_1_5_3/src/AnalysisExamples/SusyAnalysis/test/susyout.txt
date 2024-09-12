@@ -1,0 +1,3 @@
+
+User statistics:
+Number of User selected events = 0

@@ -1,0 +1,16 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=pythia6 version=409>
+<Client>
+ <Environment name=PYTHIA6_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$PYTHIA6_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$PYTHIA6_BASE/include">
+ </Environment>
+</Client>
+<lib name=pythia6>
+<lib name=pythia6_dummy>
+<lib name=pythia6_pdfdummy>
+<use name=f77compiler>
+</Tool>

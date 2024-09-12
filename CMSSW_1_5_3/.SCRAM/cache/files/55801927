@@ -1,0 +1,7 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=ROOTMinuit version=5.14.00e>
+<info url=http://root.cern.ch/root/></info>
+<lib name=Minuit>
+<use name=ROOTCore>
+</Tool>

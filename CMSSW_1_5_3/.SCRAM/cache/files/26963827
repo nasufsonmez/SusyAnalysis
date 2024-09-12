@@ -1,0 +1,9 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=glimpse version=4.18.5>
+<Client>
+ <Environment name=GLIMPSE_BASE>
+ </Environment>
+</Client>
+<Runtime name=PATH value="$GLIMPSE_BASE/bin" type=path>
+</Tool>

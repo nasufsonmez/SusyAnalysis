@@ -1,0 +1,14 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=bz2lib version=1.0.2>
+<info url=http://sources.redhat.com/bzip2/></info>
+<lib name=bz2>
+<Client>
+ <Environment name=BZ2LIB_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$BZ2LIB_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$BZ2LIB_BASE/include">
+ </Environment>
+</Client>
+</Tool>

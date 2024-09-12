@@ -1,0 +1,16 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=simage version=1.6.1>
+<info url=http://www.coin3d.org/Coin3D/file_format_libs/simage></info>
+<Lib name=simage>
+<Client>
+ <Environment name=SIMAGE_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$SIMAGE_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$SIMAGE_BASE/include">
+ </Environment>
+</Client>
+<use name=zlib>	
+<use name=jpeg>	
+</Tool>

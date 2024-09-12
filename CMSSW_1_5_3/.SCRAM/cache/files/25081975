@@ -1,0 +1,15 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=GSL version=1.8>
+<info url=http://www.gnu.org/software/gsl/gsl.html></info>
+<lib name=gsl>
+<lib name=gslcblas>
+<Client>
+<Environment name=GSL_BASE>
+</Environment>
+<Environment name=LIBDIR default="$GSL_BASE/lib">
+</Environment>
+<Environment name=INCLUDE default="$GSL_BASE/include">
+</Environment>
+</Client>
+</Tool>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc type="Configuration::ProjectEnvironment" version="1.0">
+ <environment SCRAM_PROJECTNAME="CMSSW"/>
+ <environment SCRAM_PROJECTVERSION="CMSSW_1_5_3"/>
+ <environment SCRAM_CONFIGDIR="config"/>
+ <environment SCRAM_SOURCEDIR="src"/>
+ <environment SCRAM_ProjReqsDoc="config/requirements"/>
+ <environment SCRAM_TOOLBOXVERSION="STANDALONE"/>
+ <environment RELEASETOP="/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/cmssw/CMSSW_1_5_3"/>
+</doc>

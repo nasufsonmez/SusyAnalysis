@@ -1,0 +1,13 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=sigcpp version=2.0.17>
+<lib name=sigc-2.0>
+<Client>
+ <Environment name=SIGCPP_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$SIGCPP_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$SIGCPP_BASE/include/sigc++-2.0">
+ </Environment>
+</Client>
+</Tool>

@@ -1,0 +1,780 @@
+$cache1 = bless( {
+                   'VERBOSE' => 0,
+                   'GRAPH_MODE' => 'PACKAGE',
+                   'BUILDTREE' => {
+                                    'AnalysisExamples/SusyAnalysis/src' => bless( {
+                                                                                    'TEMPLATE' => 'library_template.tmpl',
+                                                                                    'NAME' => 'SusyAnalysis',
+                                                                                    'CLASS' => 'LIBRARY',
+                                                                                    'SAFEPATH' => 'src_AnalysisExamples_SusyAnalysis_src',
+                                                                                    'CLASSDIR' => 'src/AnalysisExamples/SusyAnalysis/src',
+                                                                                    'BRANCHDATA' => bless( {
+                                                                                                             'SEEN_LOCAL_PACKAGES' => {},
+                                                                                                             'BUILD_ORDER' => [
+                                                                                                                                'sockets',
+                                                                                                                                'boost',
+                                                                                                                                'DataFormats/DetId',
+                                                                                                                                'DataFormats/CaloRecHit',
+                                                                                                                                'boost_filesystem',
+                                                                                                                                'FWCore/Utilities',
+                                                                                                                                'DataFormats/Provenance',
+                                                                                                                                'gccxml',
+                                                                                                                                'rootrflx',
+                                                                                                                                'DataFormats/Common',
+                                                                                                                                'rootcore',
+                                                                                                                                'rootmath',
+                                                                                                                                'DataFormats/Math',
+                                                                                                                                'DataFormats/Candidate',
+                                                                                                                                'DataFormats/CaloTowers',
+                                                                                                                                'DataFormats/ParticleFlowCandidate',
+                                                                                                                                'DataFormats/JetReco',
+                                                                                                                                'DataFormats/EcalRecHit',
+                                                                                                                                'clhep',
+                                                                                                                                'DataFormats/CLHEP',
+                                                                                                                                'DataFormats/GeometryVector',
+                                                                                                                                'DataFormats/GeometrySurface',
+                                                                                                                                'DataFormats/GeometryCommonDetAlgo',
+                                                                                                                                'DataFormats/TrackingRecHit',
+                                                                                                                                'DataFormats/TrajectoryState',
+                                                                                                                                'DataFormats/TrajectorySeed',
+                                                                                                                                'DataFormats/EgammaReco',
+                                                                                                                                'DataFormats/SiPixelDetId',
+                                                                                                                                'DataFormats/SiStripDetId',
+                                                                                                                                'DataFormats/TrackReco',
+                                                                                                                                'DataFormats/GsfTrackReco',
+                                                                                                                                'DataFormats/RecoCandidate',
+                                                                                                                                'DataFormats/METReco',
+                                                                                                                                'DataFormats/VertexReco',
+                                                                                                                                'sigcpp',
+                                                                                                                                'FWCore/PluginManager',
+                                                                                                                                'python',
+                                                                                                                                'elementtree',
+                                                                                                                                'boost_python',
+                                                                                                                                'FWCore/ParameterSet',
+                                                                                                                                'FWCore/ServiceRegistry',
+                                                                                                                                'FWCore/Framework',
+                                                                                                                                'Foundation/SealPlatform',
+                                                                                                                                'pcre',
+                                                                                                                                'uuid',
+                                                                                                                                'Foundation/SealBase',
+                                                                                                                                'Foundation/PluginManager',
+                                                                                                                                'hepmc',
+                                                                                                                                'SimDataFormats/HepMCProduct',
+                                                                                                                                'root',
+                                                                                                                                'AnalysisExamples/SusyAnalysis',
+                                                                                                                                'seal'
+                                                                                                                              ],
+                                                                                                             'DATA' => {
+                                                                                                                         'INCLUDE' => [
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/include',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/include',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/hepmc/2.00.02/include',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/uuid/1.38/include',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/pcre/4.4/include',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/boost/1.33.1/include',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/python/2.4.2/include/python2.4',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/sigcpp/2.0.17/include/sigc++-2.0',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/clhep/1.9.2.3/include',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/lcg/root/5.14.00e-CMS1/include',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/lcg/root/5.14.00e-CMS1/cint'
+                                                                                                                                      ],
+                                                                                                                         'LIBDIR' => [
+                                                                                                                                       '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/lib',
+                                                                                                                                       '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/hepmc/2.00.02/lib',
+                                                                                                                                       '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/uuid/1.38/lib',
+                                                                                                                                       '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/pcre/4.4/lib',
+                                                                                                                                       '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/boost/1.33.1/lib',
+                                                                                                                                       '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/python/2.4.2/lib',
+                                                                                                                                       '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/sigcpp/2.0.17/lib',
+                                                                                                                                       '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/clhep/1.9.2.3/lib',
+                                                                                                                                       '/home/nsonmez/cmssw/slc4_ia32_gcc345/lcg/root/5.14.00e-CMS1/lib'
+                                                                                                                                     ],
+                                                                                                                         'LIB' => [
+                                                                                                                                    'TreePlayer',
+                                                                                                                                    'Gpad',
+                                                                                                                                    'Graf3d',
+                                                                                                                                    'Graf',
+                                                                                                                                    'Hist',
+                                                                                                                                    'Matrix',
+                                                                                                                                    'Physics',
+                                                                                                                                    'Postscript',
+                                                                                                                                    'SimDataFormatsHepMCProduct',
+                                                                                                                                    'HepMCfio',
+                                                                                                                                    'HepMC',
+                                                                                                                                    'lcg_PluginManager',
+                                                                                                                                    'lcg_SealBase',
+                                                                                                                                    'uuid',
+                                                                                                                                    'pcre',
+                                                                                                                                    'FWCoreFramework',
+                                                                                                                                    'FWCoreServiceRegistry',
+                                                                                                                                    'FWCoreParameterSet',
+                                                                                                                                    'boost_python-gcc-mt',
+                                                                                                                                    'python2.4',
+                                                                                                                                    'FWCorePluginManager',
+                                                                                                                                    'sigc-2.0',
+                                                                                                                                    'DataFormatsVertexReco',
+                                                                                                                                    'DataFormatsMETReco',
+                                                                                                                                    'DataFormatsRecoCandidate',
+                                                                                                                                    'DataFormatsGsfTrackReco',
+                                                                                                                                    'DataFormatsTrackReco',
+                                                                                                                                    'DataFormatsSiStripDetId',
+                                                                                                                                    'DataFormatsSiPixelDetId',
+                                                                                                                                    'DataFormatsEgammaReco',
+                                                                                                                                    'DataFormatsTrajectorySeed',
+                                                                                                                                    'DataFormatsTrajectoryState',
+                                                                                                                                    'DataFormatsTrackingRecHit',
+                                                                                                                                    'DataFormatsGeometryCommonDetAlgo',
+                                                                                                                                    'DataFormatsGeometrySurface',
+                                                                                                                                    'DataFormatsGeometryVector',
+                                                                                                                                    'DataFormatsCLHEP',
+                                                                                                                                    'CLHEP-Cast-1.9.2.3',
+                                                                                                                                    'CLHEP-Evaluator-1.9.2.3',
+                                                                                                                                    'CLHEP-Exceptions-1.9.2.3',
+                                                                                                                                    'CLHEP-GenericFunctions-1.9.2.3',
+                                                                                                                                    'CLHEP-Geometry-1.9.2.3',
+                                                                                                                                    'CLHEP-Matrix-1.9.2.3',
+                                                                                                                                    'CLHEP-Random-1.9.2.3',
+                                                                                                                                    'CLHEP-RandomObjects-1.9.2.3',
+                                                                                                                                    'CLHEP-RefCount-1.9.2.3',
+                                                                                                                                    'CLHEP-Vector-1.9.2.3',
+                                                                                                                                    'DataFormatsEcalRecHit',
+                                                                                                                                    'DataFormatsJetReco',
+                                                                                                                                    'DataFormatsParticleFlowCandidate',
+                                                                                                                                    'DataFormatsCaloTowers',
+                                                                                                                                    'DataFormatsCandidate',
+                                                                                                                                    'DataFormatsMath',
+                                                                                                                                    'MathCore',
+                                                                                                                                    'MathMore',
+                                                                                                                                    'Cint',
+                                                                                                                                    'Core',
+                                                                                                                                    'Tree',
+                                                                                                                                    'DataFormatsCommon',
+                                                                                                                                    'Reflex',
+                                                                                                                                    'DataFormatsProvenance',
+                                                                                                                                    'FWCoreUtilities',
+                                                                                                                                    'boost_filesystem-gcc-mt',
+                                                                                                                                    'DataFormatsCaloRecHit',
+                                                                                                                                    'DataFormatsDetId',
+                                                                                                                                    'boost_thread-gcc-mt',
+                                                                                                                                    'boost_signals-gcc-mt',
+                                                                                                                                    'nsl',
+                                                                                                                                    'crypt',
+                                                                                                                                    'dl'
+                                                                                                                                  ],
+                                                                                                                         'FLAGS' => {
+                                                                                                                                      'EDM_PLUGIN' => [
+                                                                                                                                                        '1'
+                                                                                                                                                      ]
+                                                                                                                                    },
+                                                                                                                         'LIBTYPE' => [],
+                                                                                                                         'MAKEFILE' => [],
+                                                                                                                         'VARIABLES' => {
+                                                                                                                                          'BOOST_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/boost/1.33.1',
+                                                                                                                                          'SEAL_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f',
+                                                                                                                                          'SEAL_ARCH_INCLUDES' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/include',
+                                                                                                                                          'PYSTE_EXEC' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/boost/1.33.1/lib/python2.4/site-packages/Pyste/pyste.py',
+                                                                                                                                          'HEPMC_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/hepmc/2.00.02',
+                                                                                                                                          'SEAL_BINDIR' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/bin',
+                                                                                                                                          'PCRE_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/pcre/4.4',
+                                                                                                                                          'GCCXML_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/gccxml/0.6.0',
+                                                                                                                                          'SIGCPP_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/sigcpp/2.0.17',
+                                                                                                                                          'UUID_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/uuid/1.38',
+                                                                                                                                          'BOOST_PYTHON_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/boost/1.33.1',
+                                                                                                                                          'PYTHON_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/python/2.4.2',
+                                                                                                                                          'CLHEP_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/clhep/1.9.2.3',
+                                                                                                                                          'ELEMENTTREE_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/elementtree/1.1',
+                                                                                                                                          'ELEMENTTREE_PYPATH' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/elementtree/1.1/share/lib/python2.4/site-packages',
+                                                                                                                                          'ROOTRFLX_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/lcg/root/5.14.00e-CMS1',
+                                                                                                                                          'PYTHON_COMPILE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/python/2.4.2/lib/python2.4/compileall.py',
+                                                                                                                                          'ROOTCORE_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/lcg/root/5.14.00e-CMS1'
+                                                                                                                                        }
+                                                                                                                       }
+                                                                                                           }, 'BuildSystem::DataCollector' ),
+                                                                                    'PATH' => 'src/AnalysisExamples/SusyAnalysis/src',
+                                                                                    'METABF' => [
+                                                                                                  'src/AnalysisExamples/SusyAnalysis/BuildFile'
+                                                                                                ],
+                                                                                    'PARENT' => 'AnalysisExamples/SusyAnalysis',
+                                                                                    'SUFFIX' => ''
+                                                                                  }, 'BuildSystem::TreeItem' ),
+                                    'AnalysisExamples' => bless( {
+                                                                   'TEMPLATE' => 'SubSystem_template.tmpl',
+                                                                   'NAME' => 'AnalysisExamples',
+                                                                   'CLASS' => 'SUBSYSTEM',
+                                                                   'SAFEPATH' => 'src_AnalysisExamples',
+                                                                   'CLASSDIR' => 'src/AnalysisExamples',
+                                                                   'PATH' => 'src/AnalysisExamples',
+                                                                   'SAFESUBDIRS' => [
+                                                                                      'src_AnalysisExamples_SusyAnalysis'
+                                                                                    ],
+                                                                   'METABF' => [],
+                                                                   'PARENT' => 'src',
+                                                                   'SUFFIX' => '',
+                                                                   'CHILDREN' => [
+                                                                                   'AnalysisExamples/SusyAnalysis'
+                                                                                 ]
+                                                                 }, 'BuildSystem::TreeItem' ),
+                                    'src' => bless( {
+                                                      'TEMPLATE' => 'Project_template.tmpl',
+                                                      'NAME' => undef,
+                                                      'CLASS' => 'PROJECT',
+                                                      'RAWDATA' => bless( {
+                                                                            'content' => {
+                                                                                           'USE' => [
+                                                                                                      'coral',
+                                                                                                      'pool',
+                                                                                                      'seal',
+                                                                                                      'cxxcompiler',
+                                                                                                      'ccompiler'
+                                                                                                    ],
+                                                                                           'PRODUCTSTORE' => [
+                                                                                                               {
+                                                                                                                 'swap' => 'true',
+                                                                                                                 'name' => 'lib',
+                                                                                                                 'type' => 'arch'
+                                                                                                               },
+                                                                                                               {
+                                                                                                                 'swap' => 'true',
+                                                                                                                 'name' => 'bin',
+                                                                                                                 'type' => 'arch'
+                                                                                                               },
+                                                                                                               {
+                                                                                                                 'swap' => 'true',
+                                                                                                                 'name' => 'test',
+                                                                                                                 'type' => 'arch'
+                                                                                                               },
+                                                                                                               {
+                                                                                                                 'swap' => 'true',
+                                                                                                                 'name' => 'logs',
+                                                                                                                 'type' => 'arch'
+                                                                                                               },
+                                                                                                               {
+                                                                                                                 'swap' => 'true',
+                                                                                                                 'name' => 'include',
+                                                                                                                 'type' => 'arch'
+                                                                                                               },
+                                                                                                               {
+                                                                                                                 'name' => 'doc'
+                                                                                                               },
+                                                                                                               {
+                                                                                                                 'name' => 'python'
+                                                                                                               },
+                                                                                                               {
+                                                                                                                 'swap' => 'true',
+                                                                                                                 'name' => 'module',
+                                                                                                                 'type' => 'arch'
+                                                                                                               },
+                                                                                                               {
+                                                                                                                 'name' => 'share/ivs'
+                                                                                                               },
+                                                                                                               {
+                                                                                                                 'name' => 'share/images'
+                                                                                                               },
+                                                                                                               {
+                                                                                                                 'name' => 'share/htdocs'
+                                                                                                               }
+                                                                                                             ],
+                                                                                           'ARCH' => {
+                                                                                                       'slc4_amd64_gcc345' => {
+                                                                                                                                'MAKEFILE' => [
+                                                                                                                                                '
+'
+                                                                                                                                              ]
+                                                                                                                              },
+                                                                                                       'osx104_ppc32_gcc400' => {
+                                                                                                                                  'MAKEFILE' => [
+                                                                                                                                                  '
+'
+                                                                                                                                                ]
+                                                                                                                                },
+                                                                                                       'slc3_ia32_gcc323_dbg' => {
+                                                                                                                                   'FLAGS' => {
+                                                                                                                                                'CXXFLAGS' => [
+                                                                                                                                                                '-O0',
+                                                                                                                                                                '-g',
+                                                                                                                                                                '-DDEBUG'
+                                                                                                                                                              ]
+                                                                                                                                              },
+                                                                                                                                   'MAKEFILE' => [
+                                                                                                                                                   '
+CXXFLAGS := $(patsubst -O2,,$(CXXFLAGS))
+'
+                                                                                                                                                 ]
+                                                                                                                                 },
+                                                                                                       'slc3_ia32_gcc323' => {
+                                                                                                                               'MAKEFILE' => [
+                                                                                                                                               '
+'
+                                                                                                                                             ]
+                                                                                                                             },
+                                                                                                       'slc4_ia32_gcc345_dbg' => {
+                                                                                                                                   'FLAGS' => {
+                                                                                                                                                'CXXFLAGS' => [
+                                                                                                                                                                '-O0',
+                                                                                                                                                                '-g',
+                                                                                                                                                                '-DDEBUG'
+                                                                                                                                                              ]
+                                                                                                                                              },
+                                                                                                                                   'MAKEFILE' => [
+                                                                                                                                                   '
+CXXFLAGS := $(patsubst -O2,,$(CXXFLAGS))
+'
+                                                                                                                                                 ]
+                                                                                                                                 },
+                                                                                                       'osx104_ia32_gcc401' => {
+                                                                                                                                 'MAKEFILE' => [
+                                                                                                                                                 '
+'
+                                                                                                                                               ]
+                                                                                                                               },
+                                                                                                       'slc4_ia32_gcc345' => {
+                                                                                                                               'MAKEFILE' => [
+                                                                                                                                               '
+'
+                                                                                                                                             ]
+                                                                                                                             }
+                                                                                                     },
+                                                                                           'CLASSPATH' => [
+                                                                                                            '+Project/Iguana+SubSystem/Iguana+Package/src+binary',
+                                                                                                            '+Project/Iguana+SubSystem/Utilities+Classlib',
+                                                                                                            '+Project/Iguana+SubSystem/Utilities+Package/+donothing',
+                                                                                                            '+Project/+SubSystem/+Package/ivs+ivs',
+                                                                                                            '+Project/+SubSystem/+Package/html+html',
+                                                                                                            '+Project/+SubSystem/+Package/images+images',
+                                                                                                            '+Project/+SubSystem/+Package/scripts+scripts',
+                                                                                                            '+Project/Documentation+Documentation/+doc',
+                                                                                                            '+Project/+SubSystem/+Package/src+library',
+                                                                                                            '+Project/+SubSystem/+Package/bin+binary',
+                                                                                                            '+Project/+SubSystem/+Package/test+test',
+                                                                                                            '+Project/+SubSystem/+Package/plugins+plugins',
+                                                                                                            '+Project/+SubSystem/+Package/data+data_install',
+                                                                                                            '+Project/+SubSystem/+Package/python+python'
+                                                                                                          ]
+                                                                                         }
+                                                                          }, 'BuildSystem::BuildFile' ),
+                                                      'SAFEPATH' => 'src',
+                                                      'CLASSDIR' => 'src',
+                                                      'BRANCHDATA' => bless( {
+                                                                               'SEEN_LOCAL_PACKAGES' => {},
+                                                                               'BUILD_ORDER' => [
+                                                                                                  'ccompiler',
+                                                                                                  'coral',
+                                                                                                  'cxxcompiler',
+                                                                                                  'pool',
+                                                                                                  'seal',
+                                                                                                  'src',
+                                                                                                  'self'
+                                                                                                ],
+                                                                               'SCRAMSTORE' => {
+                                                                                                 'SCRAMSTORENAME_LOGS' => 'logs/slc4_ia32_gcc345',
+                                                                                                 'SCRAMSTORENAME_SHARE_IVS' => 'share/ivs',
+                                                                                                 'SCRAMSTORENAME_LIB' => 'lib/slc4_ia32_gcc345',
+                                                                                                 'SCRAMSTORENAME_SHARE_HTDOCS' => 'share/htdocs',
+                                                                                                 'SCRAMSTORENAME_INCLUDE' => 'include/slc4_ia32_gcc345',
+                                                                                                 'SCRAMSTORENAME_SHARE_IMAGES' => 'share/images',
+                                                                                                 'SCRAMSTORENAME_MODULE' => 'module/slc4_ia32_gcc345',
+                                                                                                 'SCRAMSTORENAME_DOC' => 'doc',
+                                                                                                 'SCRAMSTORENAME_TEST' => 'test/slc4_ia32_gcc345',
+                                                                                                 'SCRAMSTORENAME_PYTHON' => 'python',
+                                                                                                 'SCRAMSTORENAME_BIN' => 'bin/slc4_ia32_gcc345'
+                                                                                               },
+                                                                               'DATA' => {
+                                                                                           'INCLUDE' => [
+                                                                                                          '/home/nsonmez/newscript/CMSSW_1_5_3/src',
+                                                                                                          '/home/nsonmez/newscript/CMSSW_1_5_3/include/slc4_ia32_gcc345',
+                                                                                                          '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/cmssw/CMSSW_1_5_3/src',
+                                                                                                          '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/cmssw/CMSSW_1_5_3/include/slc4_ia32_gcc345',
+                                                                                                          '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/include',
+                                                                                                          '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/include',
+                                                                                                          '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/pool/POOL_2_5_1-cms147f/include',
+                                                                                                          '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/coral/CORAL_1_7_2-cms147f/include'
+                                                                                                        ],
+                                                                                           'LIBDIR' => [
+                                                                                                         '/home/nsonmez/newscript/CMSSW_1_5_3/lib/slc4_ia32_gcc345',
+                                                                                                         '/home/nsonmez/newscript/CMSSW_1_5_3/external/slc4_ia32_gcc345/lib',
+                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/cmssw/CMSSW_1_5_3/lib/slc4_ia32_gcc345',
+                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/cmssw/CMSSW_1_5_3/external/slc4_ia32_gcc345/lib',
+                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/lib',
+                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/pool/POOL_2_5_1-cms147f/slc4_ia32_gcc345/lib',
+                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/coral/CORAL_1_7_2-cms147f/slc4_ia32_gcc345/lib'
+                                                                                                       ],
+                                                                                           'FLAGS' => {
+                                                                                                        'CDEBUGFLAG' => [
+                                                                                                                          '-g'
+                                                                                                                        ],
+                                                                                                        'CXXSHAREDOBJECTFLAGS' => [
+                                                                                                                                    '-fPIC'
+                                                                                                                                  ],
+                                                                                                        'LDFLAGS' => [
+                                                                                                                       '-Wl,-E'
+                                                                                                                     ],
+                                                                                                        'SCRAM_COMPILER_NAME' => [
+                                                                                                                                   'gcc345'
+                                                                                                                                 ],
+                                                                                                        'CPPDEFINES' => [
+                                                                                                                          'GNU_GCC',
+                                                                                                                          '_GNU_SOURCE'
+                                                                                                                        ],
+                                                                                                        'CXXFLAGS' => [
+                                                                                                                        '-pedantic',
+                                                                                                                        '-ansi',
+                                                                                                                        '-pthread',
+                                                                                                                        '-pipe',
+                                                                                                                        '-O2',
+                                                                                                                        '-felide-constructors',
+                                                                                                                        '-fmessage-length=0',
+                                                                                                                        '-ftemplate-depth-300',
+                                                                                                                        '-Wall',
+                                                                                                                        '-Wno-non-template-friend',
+                                                                                                                        '-Wno-long-long',
+                                                                                                                        '-Wimplicit',
+                                                                                                                        '-Wreturn-type',
+                                                                                                                        '-Wunused',
+                                                                                                                        '-Wparentheses'
+                                                                                                                      ],
+                                                                                                        'SCRAM_LANGUAGE_TYPE' => [
+                                                                                                                                   'C++',
+                                                                                                                                   'C'
+                                                                                                                                 ],
+                                                                                                        'CSHAREDOBJECTFLAGS' => [
+                                                                                                                                  '-fPIC'
+                                                                                                                                ],
+                                                                                                        'CFLAGS' => [
+                                                                                                                      '-pthread',
+                                                                                                                      '-O2'
+                                                                                                                    ],
+                                                                                                        'CXXSHAREDFLAGS' => [
+                                                                                                                              '-Wl,-E'
+                                                                                                                            ],
+                                                                                                        'CXXDEBUGFLAG' => [
+                                                                                                                            '-g'
+                                                                                                                          ],
+                                                                                                        'SHAREDSUFFIX' => [
+                                                                                                                            'so'
+                                                                                                                          ],
+                                                                                                        'CSHAREDFLAGS' => [
+                                                                                                                            '-Wl,-E'
+                                                                                                                          ],
+                                                                                                        'CCCOMPILER' => [
+                                                                                                                          'gcc3'
+                                                                                                                        ],
+                                                                                                        'MODULEFLAGS' => [
+                                                                                                                           '-shared'
+                                                                                                                         ]
+                                                                                                      },
+                                                                                           'LIB' => [],
+                                                                                           'VARIABLES' => {
+                                                                                                            'GCCBINDIR' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/gcc-wrapper/3.4.5m32/bin',
+                                                                                                            'SEAL_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f',
+                                                                                                            'CC' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/gcc-wrapper/3.4.5m32/bin/gcc',
+                                                                                                            'SEAL_ARCH_INCLUDES' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/include',
+                                                                                                            'POOL_BINDIR' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/pool/POOL_2_5_1-cms147f/slc4_ia32_gcc345/bin',
+                                                                                                            'SEAL_BINDIR' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/bin',
+                                                                                                            'CORAL_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/coral/CORAL_1_7_2-cms147f',
+                                                                                                            'GCC_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/gcc-wrapper/3.4.5m32',
+                                                                                                            'CXX' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/gcc-wrapper/3.4.5m32/bin/c++',
+                                                                                                            'CMSSW_BINDIR' => '/home/nsonmez/newscript/CMSSW_1_5_3/bin/slc4_ia32_gcc345',
+                                                                                                            'POOL_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/pool/POOL_2_5_1-cms147f'
+                                                                                                          },
+                                                                                           'MAKEFILE' => [
+                                                                                                           '
+'
+                                                                                                         ]
+                                                                                         }
+                                                                             }, 'BuildSystem::DataCollector' ),
+                                                      'PATH' => 'src',
+                                                      'SAFESUBDIRS' => [
+                                                                         'src_AnalysisExamples'
+                                                                       ],
+                                                      'METABF' => [
+                                                                    'config/BuildFile'
+                                                                  ],
+                                                      'CHILDREN' => [
+                                                                      'AnalysisExamples'
+                                                                    ],
+                                                      'SCRAM_PROJECT_BASES' => {
+                                                                                 'SEAL_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f',
+                                                                                 'CORAL_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/coral/CORAL_1_7_2-cms147f',
+                                                                                 'IGNOMINY_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/ignominy/IGNOMINY_4_7_0',
+                                                                                 'POOL_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/pool/POOL_2_5_1-cms147f'
+                                                                               },
+                                                      'SUFFIX' => ''
+                                                    }, 'BuildSystem::TreeItem' ),
+                                    'AnalysisExamples/SusyAnalysis/test' => bless( {
+                                                                                     'TEMPLATE' => 'test_template.tmpl',
+                                                                                     'NAME' => 'SusyAnalysis',
+                                                                                     'CLASS' => 'TEST',
+                                                                                     'SAFEPATH' => 'src_AnalysisExamples_SusyAnalysis_test',
+                                                                                     'CLASSDIR' => 'src/AnalysisExamples/SusyAnalysis/test',
+                                                                                     'BRANCHDATA' => bless( {
+                                                                                                              'SEEN_LOCAL_PACKAGES' => {},
+                                                                                                              'BUILD_ORDER' => [
+                                                                                                                                 'sockets',
+                                                                                                                                 'boost',
+                                                                                                                                 'DataFormats/DetId',
+                                                                                                                                 'DataFormats/CaloRecHit',
+                                                                                                                                 'boost_filesystem',
+                                                                                                                                 'FWCore/Utilities',
+                                                                                                                                 'DataFormats/Provenance',
+                                                                                                                                 'gccxml',
+                                                                                                                                 'rootrflx',
+                                                                                                                                 'DataFormats/Common',
+                                                                                                                                 'rootcore',
+                                                                                                                                 'rootmath',
+                                                                                                                                 'DataFormats/Math',
+                                                                                                                                 'DataFormats/Candidate',
+                                                                                                                                 'DataFormats/CaloTowers',
+                                                                                                                                 'DataFormats/ParticleFlowCandidate',
+                                                                                                                                 'DataFormats/JetReco',
+                                                                                                                                 'DataFormats/EcalRecHit',
+                                                                                                                                 'clhep',
+                                                                                                                                 'DataFormats/CLHEP',
+                                                                                                                                 'DataFormats/GeometryVector',
+                                                                                                                                 'DataFormats/GeometrySurface',
+                                                                                                                                 'DataFormats/GeometryCommonDetAlgo',
+                                                                                                                                 'DataFormats/TrackingRecHit',
+                                                                                                                                 'DataFormats/TrajectoryState',
+                                                                                                                                 'DataFormats/TrajectorySeed',
+                                                                                                                                 'DataFormats/EgammaReco',
+                                                                                                                                 'DataFormats/SiPixelDetId',
+                                                                                                                                 'DataFormats/SiStripDetId',
+                                                                                                                                 'DataFormats/TrackReco',
+                                                                                                                                 'DataFormats/GsfTrackReco',
+                                                                                                                                 'DataFormats/RecoCandidate',
+                                                                                                                                 'DataFormats/METReco',
+                                                                                                                                 'DataFormats/VertexReco',
+                                                                                                                                 'sigcpp',
+                                                                                                                                 'FWCore/PluginManager',
+                                                                                                                                 'python',
+                                                                                                                                 'elementtree',
+                                                                                                                                 'boost_python',
+                                                                                                                                 'FWCore/ParameterSet',
+                                                                                                                                 'FWCore/ServiceRegistry',
+                                                                                                                                 'FWCore/Framework',
+                                                                                                                                 'Foundation/SealPlatform',
+                                                                                                                                 'pcre',
+                                                                                                                                 'uuid',
+                                                                                                                                 'Foundation/SealBase',
+                                                                                                                                 'Foundation/PluginManager',
+                                                                                                                                 'hepmc',
+                                                                                                                                 'SimDataFormats/HepMCProduct',
+                                                                                                                                 'root',
+                                                                                                                                 'AnalysisExamples/SusyAnalysis/test',
+                                                                                                                                 'seal'
+                                                                                                                               ],
+                                                                                                              'DATA' => {
+                                                                                                                          'INCLUDE' => [
+                                                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/include',
+                                                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/include',
+                                                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/hepmc/2.00.02/include',
+                                                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/uuid/1.38/include',
+                                                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/pcre/4.4/include',
+                                                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/boost/1.33.1/include',
+                                                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/python/2.4.2/include/python2.4',
+                                                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/sigcpp/2.0.17/include/sigc++-2.0',
+                                                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/clhep/1.9.2.3/include',
+                                                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/lcg/root/5.14.00e-CMS1/include',
+                                                                                                                                         '/home/nsonmez/cmssw/slc4_ia32_gcc345/lcg/root/5.14.00e-CMS1/cint'
+                                                                                                                                       ],
+                                                                                                                          'LIBDIR' => [
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/lib',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/hepmc/2.00.02/lib',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/uuid/1.38/lib',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/pcre/4.4/lib',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/boost/1.33.1/lib',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/python/2.4.2/lib',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/sigcpp/2.0.17/lib',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/clhep/1.9.2.3/lib',
+                                                                                                                                        '/home/nsonmez/cmssw/slc4_ia32_gcc345/lcg/root/5.14.00e-CMS1/lib'
+                                                                                                                                      ],
+                                                                                                                          'LIB' => [
+                                                                                                                                     'TreePlayer',
+                                                                                                                                     'Gpad',
+                                                                                                                                     'Graf3d',
+                                                                                                                                     'Graf',
+                                                                                                                                     'Hist',
+                                                                                                                                     'Matrix',
+                                                                                                                                     'Physics',
+                                                                                                                                     'Postscript',
+                                                                                                                                     'SimDataFormatsHepMCProduct',
+                                                                                                                                     'HepMCfio',
+                                                                                                                                     'HepMC',
+                                                                                                                                     'lcg_PluginManager',
+                                                                                                                                     'lcg_SealBase',
+                                                                                                                                     'uuid',
+                                                                                                                                     'pcre',
+                                                                                                                                     'FWCoreFramework',
+                                                                                                                                     'FWCoreServiceRegistry',
+                                                                                                                                     'FWCoreParameterSet',
+                                                                                                                                     'boost_python-gcc-mt',
+                                                                                                                                     'python2.4',
+                                                                                                                                     'FWCorePluginManager',
+                                                                                                                                     'sigc-2.0',
+                                                                                                                                     'DataFormatsVertexReco',
+                                                                                                                                     'DataFormatsMETReco',
+                                                                                                                                     'DataFormatsRecoCandidate',
+                                                                                                                                     'DataFormatsGsfTrackReco',
+                                                                                                                                     'DataFormatsTrackReco',
+                                                                                                                                     'DataFormatsSiStripDetId',
+                                                                                                                                     'DataFormatsSiPixelDetId',
+                                                                                                                                     'DataFormatsEgammaReco',
+                                                                                                                                     'DataFormatsTrajectorySeed',
+                                                                                                                                     'DataFormatsTrajectoryState',
+                                                                                                                                     'DataFormatsTrackingRecHit',
+                                                                                                                                     'DataFormatsGeometryCommonDetAlgo',
+                                                                                                                                     'DataFormatsGeometrySurface',
+                                                                                                                                     'DataFormatsGeometryVector',
+                                                                                                                                     'DataFormatsCLHEP',
+                                                                                                                                     'CLHEP-Cast-1.9.2.3',
+                                                                                                                                     'CLHEP-Evaluator-1.9.2.3',
+                                                                                                                                     'CLHEP-Exceptions-1.9.2.3',
+                                                                                                                                     'CLHEP-GenericFunctions-1.9.2.3',
+                                                                                                                                     'CLHEP-Geometry-1.9.2.3',
+                                                                                                                                     'CLHEP-Matrix-1.9.2.3',
+                                                                                                                                     'CLHEP-Random-1.9.2.3',
+                                                                                                                                     'CLHEP-RandomObjects-1.9.2.3',
+                                                                                                                                     'CLHEP-RefCount-1.9.2.3',
+                                                                                                                                     'CLHEP-Vector-1.9.2.3',
+                                                                                                                                     'DataFormatsEcalRecHit',
+                                                                                                                                     'DataFormatsJetReco',
+                                                                                                                                     'DataFormatsParticleFlowCandidate',
+                                                                                                                                     'DataFormatsCaloTowers',
+                                                                                                                                     'DataFormatsCandidate',
+                                                                                                                                     'DataFormatsMath',
+                                                                                                                                     'MathCore',
+                                                                                                                                     'MathMore',
+                                                                                                                                     'Cint',
+                                                                                                                                     'Core',
+                                                                                                                                     'Tree',
+                                                                                                                                     'DataFormatsCommon',
+                                                                                                                                     'Reflex',
+                                                                                                                                     'DataFormatsProvenance',
+                                                                                                                                     'FWCoreUtilities',
+                                                                                                                                     'boost_filesystem-gcc-mt',
+                                                                                                                                     'DataFormatsCaloRecHit',
+                                                                                                                                     'DataFormatsDetId',
+                                                                                                                                     'boost_thread-gcc-mt',
+                                                                                                                                     'boost_signals-gcc-mt',
+                                                                                                                                     'nsl',
+                                                                                                                                     'crypt',
+                                                                                                                                     'dl'
+                                                                                                                                   ],
+                                                                                                                          'FLAGS' => {
+                                                                                                                                       'EDM_PLUGIN' => [
+                                                                                                                                                         '1'
+                                                                                                                                                       ]
+                                                                                                                                     },
+                                                                                                                          'LIBTYPE' => [],
+                                                                                                                          'MAKEFILE' => [],
+                                                                                                                          'VARIABLES' => {
+                                                                                                                                           'BOOST_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/boost/1.33.1',
+                                                                                                                                           'SEAL_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f',
+                                                                                                                                           'SEAL_ARCH_INCLUDES' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/include',
+                                                                                                                                           'PYSTE_EXEC' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/boost/1.33.1/lib/python2.4/site-packages/Pyste/pyste.py',
+                                                                                                                                           'HEPMC_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/hepmc/2.00.02',
+                                                                                                                                           'SEAL_BINDIR' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/cms/seal/SEAL_1_9_2-cms147f/slc4_ia32_gcc345/bin',
+                                                                                                                                           'PCRE_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/pcre/4.4',
+                                                                                                                                           'GCCXML_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/gccxml/0.6.0',
+                                                                                                                                           'SIGCPP_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/sigcpp/2.0.17',
+                                                                                                                                           'UUID_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/uuid/1.38',
+                                                                                                                                           'BOOST_PYTHON_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/boost/1.33.1',
+                                                                                                                                           'PYTHON_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/python/2.4.2',
+                                                                                                                                           'CLHEP_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/clhep/1.9.2.3',
+                                                                                                                                           'ELEMENTTREE_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/elementtree/1.1',
+                                                                                                                                           'ELEMENTTREE_PYPATH' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/elementtree/1.1/share/lib/python2.4/site-packages',
+                                                                                                                                           'ROOTRFLX_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/lcg/root/5.14.00e-CMS1',
+                                                                                                                                           'PYTHON_COMPILE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/external/python/2.4.2/lib/python2.4/compileall.py',
+                                                                                                                                           'ROOTCORE_BASE' => '/home/nsonmez/cmssw/slc4_ia32_gcc345/lcg/root/5.14.00e-CMS1'
+                                                                                                                                         }
+                                                                                                                        }
+                                                                                                            }, 'BuildSystem::DataCollector' ),
+                                                                                     'PATH' => 'src/AnalysisExamples/SusyAnalysis/test',
+                                                                                     'METABF' => [
+                                                                                                   'src/AnalysisExamples/SusyAnalysis/BuildFile'
+                                                                                                 ],
+                                                                                     'PARENT' => 'AnalysisExamples/SusyAnalysis',
+                                                                                     'SUFFIX' => ''
+                                                                                   }, 'BuildSystem::TreeItem' ),
+                                    'AnalysisExamples/SusyAnalysis/interface' => bless( {
+                                                                                          'TEMPLATE' => 'Package_template.tmpl',
+                                                                                          'NAME' => 'SusyAnalysis',
+                                                                                          'CLASS' => 'PACKAGE',
+                                                                                          'SAFEPATH' => 'src_AnalysisExamples_SusyAnalysis_interface',
+                                                                                          'CLASSDIR' => 'src/AnalysisExamples/SusyAnalysis',
+                                                                                          'PATH' => 'src/AnalysisExamples/SusyAnalysis/interface',
+                                                                                          'METABF' => [
+                                                                                                        'src/AnalysisExamples/SusyAnalysis/BuildFile'
+                                                                                                      ],
+                                                                                          'PARENT' => 'AnalysisExamples/SusyAnalysis',
+                                                                                          'SUFFIX' => 'interface'
+                                                                                        }, 'BuildSystem::TreeItem' ),
+                                    'AnalysisExamples/SusyAnalysis' => bless( {
+                                                                                'TEMPLATE' => 'Package_template.tmpl',
+                                                                                'NAME' => 'SusyAnalysis',
+                                                                                'CLASS' => 'PACKAGE',
+                                                                                'RAWDATA' => bless( {
+                                                                                                      'content' => {
+                                                                                                                     'USE' => [
+                                                                                                                                'FWCore/Framework',
+                                                                                                                                'Foundation/PluginManager',
+                                                                                                                                'FWCore/ParameterSet',
+                                                                                                                                'DataFormats/Common',
+                                                                                                                                'DataFormats/JetReco',
+                                                                                                                                'DataFormats/VertexReco',
+                                                                                                                                'DataFormats/METReco',
+                                                                                                                                'SimDataFormats/HepMCProduct',
+                                                                                                                                'DataFormats/Candidate',
+                                                                                                                                'clhep',
+                                                                                                                                'root'
+                                                                                                                              ],
+                                                                                                                     'FLAGS' => {
+                                                                                                                                  'EDM_PLUGIN' => [
+                                                                                                                                                    '1'
+                                                                                                                                                  ]
+                                                                                                                                },
+                                                                                                                     'EXPORT' => {
+                                                                                                                                   'USE' => [
+                                                                                                                                              'SimDataFormats/HepMCProduct',
+                                                                                                                                              'DataFormats/Candidate',
+                                                                                                                                              'DataFormats/Common',
+                                                                                                                                              'DataFormats/JetReco',
+                                                                                                                                              'DataFormats/METReco',
+                                                                                                                                              'DataFormats/VertexReco',
+                                                                                                                                              'clhep',
+                                                                                                                                              'root',
+                                                                                                                                              'FWCore/Framework',
+                                                                                                                                              'Foundation/PluginManager',
+                                                                                                                                              'FWCore/ParameterSet'
+                                                                                                                                            ],
+                                                                                                                                   'LIB' => [
+                                                                                                                                              'AnalysisExamplesSusyAnalysis'
+                                                                                                                                            ]
+                                                                                                                                 }
+                                                                                                                   }
+                                                                                                    }, 'BuildSystem::BuildFile' ),
+                                                                                'SAFEPATH' => 'src_AnalysisExamples_SusyAnalysis',
+                                                                                'CLASSDIR' => 'src/AnalysisExamples/SusyAnalysis',
+                                                                                'PATH' => 'src/AnalysisExamples/SusyAnalysis',
+                                                                                'SAFESUBDIRS' => [
+                                                                                                   'src_AnalysisExamples_SusyAnalysis_test',
+                                                                                                   'src_AnalysisExamples_SusyAnalysis_src',
+                                                                                                   'src_AnalysisExamples_SusyAnalysis_interface'
+                                                                                                 ],
+                                                                                'METABF' => [
+                                                                                              'src/AnalysisExamples/SusyAnalysis/BuildFile'
+                                                                                            ],
+                                                                                'PARENT' => 'AnalysisExamples',
+                                                                                'CHILDREN' => [
+                                                                                                'AnalysisExamples/SusyAnalysis/test',
+                                                                                                'AnalysisExamples/SusyAnalysis/src',
+                                                                                                'AnalysisExamples/SusyAnalysis/interface'
+                                                                                              ],
+                                                                                'SUFFIX' => ''
+                                                                              }, 'BuildSystem::TreeItem' )
+                                  },
+                   'STATUS' => 0,
+                   'SKIPPEDDIRS' => {},
+                   'CACHENAME' => '/home/nsonmez/newscript/CMSSW_1_5_3/.SCRAM/slc4_ia32_gcc345/ProjectCache.db',
+                   'GRAPH_WRITE' => 0,
+                   'CONFIGDIR' => '/home/nsonmez/newscript/CMSSW_1_5_3/config'
+                 }, 'BuildSystem::BuildDataStorage' );

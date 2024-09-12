@@ -1,0 +1,8 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=ROOTCintex version=5.14.00e>
+<info url=http://root.cern.ch/root/></info>
+<lib name=Cintex>
+<use name=ROOTRflx>
+<use name=ROOTCore>
+</Tool>

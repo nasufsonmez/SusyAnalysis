@@ -1,0 +1,14 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=ktjet version=1.06>
+<info url=http://hepforge.cedar.ac.uk/ktjet>
+<lib name=KtEvent>
+<Client>
+<Environment name=KTJET_BASE>
+<Environment name=LIBDIR default="$KTJET_BASE/lib">
+</Environment>
+<Environment name=INCLUDE default="$KTJET_BASE/include">
+</Environment>
+</Client>
+<Flags CPPDEFINES="KTDOUBLEPRECISION">
+</Tool>

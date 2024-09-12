@@ -1,0 +1,56 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.1>
+<tool name=f77compiler version=3.2.3 type=compiler> 
+# SLC3:
+<architecture name=slc3_ia32_gcc323>
+ <lib name=g2c>
+ <lib name=m>
+ <client>
+ <Environment name=G77_BASE>
+ </Environment>
+ <Environment name=FC default="$G77_BASE/bin/g77">
+ </Environment>
+ </client>
+ <Flags SCRAM_COMPILER_NAME="gcc323">
+ <Flags FFLAGS="-fno-second-underscore -Wno-globals -Wunused -Wuninitialized">
+ <Flags FCO2Flag="-O2">
+ <Flags FCOPTIMISED="-O2">
+ <Flags FCDEBUGFLAG="-g">
+ <Flags FCSHAREDFCOBJECTFLAGS="-fPIC">
+</architecture>
+# SLC4 on AMD64:
+<architecture name=slc4_amd64_gcc345>
+ <lib name=g2c>
+ <lib name=m>
+ <client>
+ <Environment name=G77_BASE>
+ </Environment>
+ <Environment name=FC default="$G77_BASE/bin/g77">
+ </Environment>
+ </client>
+ <Flags SCRAM_COMPILER_NAME="gcc345">
+ <Flags FFLAGS="-fno-second-underscore -Wno-globals -Wunused -Wuninitialized">
+ <Flags FCO2Flag="-O2">
+ <Flags FCOPTIMISED="-O2">
+ <Flags FCDEBUGFLAG="-g">
+ <Flags FCSHAREDFCOBJECTFLAGS="-fPIC">
+</architecture>
+# SLC4:
+<architecture name=slc4_ia32_gcc345>
+ <lib name=g2c>
+ <lib name=m>
+ <client>
+ <Environment name=G77_BASE>
+ </Environment>
+ <Environment name=FC default="$G77_BASE/bin/g77">
+ </Environment>
+ </client>
+ <Flags SCRAM_COMPILER_NAME="gcc345">
+ <Flags FFLAGS="-fno-second-underscore -Wno-globals -Wunused -Wuninitialized">
+ <Flags FCO2Flag="-O2">
+ <Flags FCOPTIMISED="-O2">
+ <Flags FCDEBUGFLAG="-g">
+ <Flags FCSHAREDFCOBJECTFLAGS="-fPIC">
+</architecture>
+<Flags SCRAM_LANGUAGE_TYPE="FORTRAN">
+</tool>

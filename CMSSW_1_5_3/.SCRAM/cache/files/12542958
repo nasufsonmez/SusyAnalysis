@@ -1,0 +1,12 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=elementtree version=1.1>
+<info url=http://www.boost.org></info>
+<Client>
+ <Environment name=ELEMENTTREE_BASE>ElementTree is required for PYSTE.</Environment>
+ <Environment name=ELEMENTTREE_PYPATH default="$ELEMENTTREE_BASE/share/lib/python2.4/site-packages"></Environment>
+</Client>
+<use name=gccxml>
+<use name=python>
+<Runtime name=PYTHONPATH value="$ELEMENTTREE_PYPATH" type=path>
+</Tool>

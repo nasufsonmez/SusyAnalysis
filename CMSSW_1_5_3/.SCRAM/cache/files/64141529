@@ -1,0 +1,62 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.1>
+<tool name=ccompiler version=3.2.3 type=compiler>
+# SLC3:
+<Architecture name=slc3_ia32_gcc323>
+ <client>
+ <Environment name=GCC_BASE>
+ </Environment>
+ <Environment name=GCCBINDIR value="$GCC_BASE/bin">
+ </Environment>
+ <Environment name=CC value="$GCCBINDIR/gcc">
+ </Environment>
+ </client>
+ <Flags CDEBUGFLAG="-g">
+ <Flags CSHAREDOBJECTFLAGS="-fPIC">
+ <Flags CFLAGS="-pthread">
+ <Flags CFLAGS="-O2">
+ <Flags LDFLAGS="-Wl,-E">
+ <Flags CSHAREDFLAGS="-Wl,-E">
+ <Flags SCRAM_COMPILER_NAME="gcc323">
+</Architecture>
+
+# SLC4, gcc345:
+<Architecture name=slc4_ia32_gcc345>
+ <client>
+ <Environment name=GCC_BASE>
+ </Environment>
+ <Environment name=GCCBINDIR value="$GCC_BASE/bin">
+ </Environment>
+ <Environment name=CC value="$GCCBINDIR/gcc">
+ </Environment>
+ </client>
+ <Flags CDEBUGFLAG="-g">
+ <Flags CSHAREDOBJECTFLAGS="-fPIC">
+ <Flags CFLAGS="-pthread">
+ <Flags CFLAGS="-O2">
+ <Flags LDFLAGS="-Wl,-E">
+ <Flags CSHAREDFLAGS="-Wl,-E">
+ <Flags SCRAM_COMPILER_NAME="gcc345">
+</Architecture>
+
+# SLC4 on AMD64, gcc345:
+<Architecture name=slc4_amd64_gcc345>
+ <client>
+ <Environment name=GCC_BASE>
+ </Environment>
+ <Environment name=GCCBINDIR value="$GCC_BASE/bin">
+ </Environment>
+ <Environment name=CC value="$GCCBINDIR/gcc">
+ </Environment>
+ </client>
+ <Flags CDEBUGFLAG="-g">
+ <Flags CSHAREDOBJECTFLAGS="-fPIC">
+ <Flags CFLAGS="-pthread">
+ <Flags CFLAGS="-O2">
+ <Flags LDFLAGS="-Wl,-E">
+ <Flags CSHAREDFLAGS="-Wl,-E">
+ <Flags SCRAM_COMPILER_NAME="gcc345">
+</Architecture>
+# Language support:
+<Flags SCRAM_LANGUAGE_TYPE="C">
+</tool>

@@ -1,0 +1,7 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=Boost_signals version=1.33.1>
+<info url=http://www.boost.org></info>
+<lib name=boost_signals-gcc-mt>
+<use name=boost>
+</Tool>

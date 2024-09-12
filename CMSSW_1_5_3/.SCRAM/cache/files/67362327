@@ -1,0 +1,8 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=QMTest version=2.3.0>
+<Client>
+ <Environment name=QMTEST_BASE>The top of the QMTEST distribution.</Environment>
+</Client>
+<Runtime name=PATH value="$QMTEST_BASE/bin" type=path>
+</Tool>

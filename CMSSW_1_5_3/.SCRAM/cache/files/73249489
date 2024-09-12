@@ -1,0 +1,14 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=Curl version=7.15.3>
+<lib name=curl>
+<client>
+ <Environment name=CURL_BASE>
+ </Environment>
+ <Environment name=INCLUDE default="$CURL_BASE/include">
+ </Environment>
+ <Environment name=LIBDIR  default="$CURL_BASE/lib">
+ </Environment>
+</client>
+<Runtime name=PATH value="$CURL_BASE/bin" type=path>
+</Tool>

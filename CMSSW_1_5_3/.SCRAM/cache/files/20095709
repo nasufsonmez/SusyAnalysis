@@ -1,0 +1,13 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=pcre version=4.4>
+<info url=http://www.pcre.org></info>
+<lib name=pcre>
+<Client>
+ <Environment name=PCRE_BASE>
+ <Environment name=LIBDIR default="$PCRE_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$PCRE_BASE/include">
+ </Environment>
+</Client>
+</Tool>

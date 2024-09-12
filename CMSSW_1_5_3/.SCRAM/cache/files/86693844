@@ -1,0 +1,16 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=SoQt version=1.3.0>
+<info url=http://www.coin3d.org></info>
+<Lib name=SoQt>
+<Client>                                                                                  
+<Environment name=SOQT_BASE>                                                              
+</Environment>                                                                            
+<Environment name=LIBDIR default="$SOQT_BASE/lib">                               
+</Environment>                                                                            
+<Environment name=INCLUDE default="$SOQT_BASE/include">                                   
+</Environment>                                                                            
+</Client>
+<use name=OpenInventor>
+<use name=Qt>                                                                         
+</Tool>

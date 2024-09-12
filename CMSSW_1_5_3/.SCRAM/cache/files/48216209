@@ -1,0 +1,17 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=pythia8 version=070>
+<Client>
+ <Environment name=PYTHIA8_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$PYTHIA8_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$PYTHIA8_BASE/include">
+ </Environment>
+</Client>
+<lib name=pythia8>
+<use name=cxxcompiler>
+<use name=hepmc>
+<use name=pythia6>
+<use name=clhep>
+</Tool>

@@ -1,0 +1,12 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=Coin3D version=2.4.4>
+<info url=http://www.coin3d.org></info>
+<lib name=Coin>
+<Client>
+<Environment name=COIN3D_BASE>The top of the Coin3D distribution.</Environment>
+<Environment name=LIBDIR default="$COIN3D_BASE/lib"></Environment>
+<Environment name=INCLUDE default="$COIN3D_BASE/include"></Environment>
+</Client>
+<use name=OpenGL>
+</Tool>

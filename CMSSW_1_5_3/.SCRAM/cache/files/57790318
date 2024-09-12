@@ -1,0 +1,14 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>                                               
+<Tool name=Meschach version=1.2.pCMS1>
+<info url=http://www.meschach.com></info>                                                 
+<lib name=meschach>                                                                       
+<Client>                                                                                  
+<Environment name=MESCHACH_BASE>                                                          
+</Environment>                                                                            
+<Environment name=LIBDIR default="$MESCHACH_BASE/lib">                             
+</Environment>                                                                            
+<Environment name=INCLUDE default="$MESCHACH_BASE/include">
+</Environment>                                                                            
+</Client>                                                                                 
+</Tool>

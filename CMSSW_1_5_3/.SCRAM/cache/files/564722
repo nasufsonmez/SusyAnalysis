@@ -1,0 +1,22 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=oracle version=10.2.0.2>
+<lib name=clntsh>
+<lib name=occi>
+<lib name=nnz10>
+<Client>
+ <Environment name=ORACLE_BASE>
+ </Environment>
+ <Environment name=ORACLE_ADMINDIR>
+ </Environment>
+ <Environment name=LIBDIR value="$ORACLE_BASE/lib">Location of Oracle libraries.</Environment>
+ <Environment name=BINDIR value="$ORACLE_BASE/bin">Location of Oracle executables.</Environment>
+ <Environment name=INCLUDE value="$ORACLE_BASE/include">Location of Oracle include files.</Environment>
+</Client>
+<Runtime name=PATH value="$BINDIR" type=path>
+<Runtime name=NLS_LANG value="american_america.WE8ISO8859P9">
+<Runtime name=NLS_DATE_FORMAT value="DD-MON-FXYYYY">
+<Runtime name=ORA_NLS33 default="$ORACLE_BASE/ocommon/nls/admin/data">
+<Runtime name=ORACLE_HOME default="$ORACLE_BASE">
+<Runtime name=TNS_ADMIN default="$ORACLE_ADMINDIR">
+</Tool>

@@ -1,0 +1,21 @@
+//counter for q->~q_L+~q_L	nan
+//counter for g->~q_L+~q_L	nan
+//counter for q->~q_R+~q_R	nan
+//counter for g->~q_R+~q_R	nan
+//counter for q->~q_L+~g	nan
+//counter for g->~q_L+~g	nan
+//counter for q->~q_R+~g	nan
+//counter for g->~q_R+~g	nan
+//counter for q->~g+~g		nan
+//counter for g->~g+~g		nan
+//counter for q->~q_L+~q_R	nan
+//counter for g->~q_L+~q_R	nan
+//counter for q->~q_L+~X_i^0	nan
+//counter for g->~q_L+~X_i^0	nan
+//counter for q->~q_R+~X_i^0	nan
+//counter for g->~q_R+~X_i^0	nan
+---------------------Toplam:	nan
+//counter for  jet + MET final states  	
+//counter for ~q~q->2 jet + MET	0
+//counter for ~q~g->3 jet + MET	0
+//counter for ~g~g->4 jet + MET	0

@@ -1,0 +1,14 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=MySQLpp version=1.7.40>
+<lib name=mysqlpp>
+<Client>
+ <Environment name=MYSQLPP_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$MYSQLPP_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$MYSQLPP_BASE/include">
+ </Environment>
+</Client>
+<use name=mysql>
+</Tool>

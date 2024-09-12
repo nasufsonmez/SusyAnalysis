@@ -1,0 +1,16 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=sqlite version=3.3.5>
+<lib name=sqlite3>
+<Client>
+ <Environment name=SQLITE_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$SQLITE_BASE/lib">
+ </Environment>
+ <Environment name=BINDIR default="$SQLITE_BASE/bin">
+ </Environment>
+ <Environment name=INCLUDE default="$SQLITE_BASE/include">
+ </Environment>
+</Client>
+<Runtime name=PATH value="$BINDIR" type=path>
+</Tool>

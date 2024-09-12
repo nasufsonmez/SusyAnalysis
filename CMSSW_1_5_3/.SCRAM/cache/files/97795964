@@ -1,0 +1,16 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=TkOnlineSw version=1.2>
+<info url="http://www.cern.ch/"></info>
+<lib name=ICUtils>
+<lib name=Fed9UUtils>
+<lib name=DeviceDescriptions>
+<lib name=Fed9UDeviceFactory>
+<Client>
+ <Environment name=TKONLINESW_BASE>
+ <Environment name=LIBDIR value="$TKONLINESW_BASE/lib">
+ <Environment name=INCLUDE value="$TKONLINESW_BASE/include">
+</Client>
+<use name=xerces-c>
+<use name=oracle>
+</Tool>

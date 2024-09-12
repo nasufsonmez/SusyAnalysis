@@ -1,0 +1,17 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=Python version=2.4.2>
+<lib name=python2.4>
+<Client>
+ <Environment name=PYTHON_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$PYTHON_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$PYTHON_BASE/include/python2.4">
+ </Environment>
+ <Environment name=PYTHON_COMPILE default="$PYTHON_BASE/lib/python2.4/compileall.py">
+ </Environment>
+</Client>
+<use name=sockets>
+<Runtime name=PATH value="$PYTHON_BASE/bin" type=path>
+</Tool>

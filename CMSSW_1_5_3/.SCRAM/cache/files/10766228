@@ -1,0 +1,14 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=cppunit version=1.10.2>
+<lib name=cppunit>
+<Client>
+ <Environment name=CPPUNIT_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$CPPUNIT_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$CPPUNIT_BASE/include">
+ </Environment>
+</Client>
+<use name=sockets>
+</Tool>

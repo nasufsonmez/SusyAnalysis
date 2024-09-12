@@ -1,0 +1,14 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=Xerces-c version=2.7.0>
+<info url=http://xml.apache.org/xerces-c/></info>
+<lib name=xerces-c>
+<Client>
+<Environment name=XERCES_C_BASE>
+</Environment>
+<Environment name=INCLUDE default="$XERCES_C_BASE/include">
+</Environment>
+<Environment name=LIBDIR default="$XERCES_C_BASE/lib">
+</Environment>
+</Client>
+</Tool>

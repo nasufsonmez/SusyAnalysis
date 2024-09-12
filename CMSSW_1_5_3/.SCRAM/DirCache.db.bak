@@ -1,0 +1,217 @@
+$cache1 = bless( {
+                   'VERBOSE' => undef,
+                   'STATUSCONFIG' => 0,
+                   'DIRCACHE' => {
+                                   'src/AnalysisExamples/SusyAnalysis/interface' => [
+                                                                                      16877,
+                                                                                      1192370231
+                                                                                    ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/site' => [
+                                                                                          16877,
+                                                                                          1192370084,
+                                                                                          '/home/nsonmez/newscript/CMSSW_1_5_3/config/site/sitename'
+                                                                                        ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/SEAL_requirements' => [
+                                                                                                       33261,
+                                                                                                       1192370084
+                                                                                                     ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/bootsrc' => [
+                                                                                             33261,
+                                                                                             1192370084
+                                                                                           ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/CMSSW_bootsrc' => [
+                                                                                                   33261,
+                                                                                                   1192370084
+                                                                                                 ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/boot' => [
+                                                                                          33261,
+                                                                                          1192370084
+                                                                                        ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/BuildFile' => [
+                                                                                               33261,
+                                                                                               1192370084
+                                                                                             ],
+                                   'src/AnalysisExamples/SusyAnalysis/src' => [
+                                                                                16877,
+                                                                                1192370231
+                                                                              ],
+                                   'src/AnalysisExamples/SusyAnalysis' => [
+                                                                            16877,
+                                                                            1192370231,
+                                                                            'src/AnalysisExamples/SusyAnalysis/test',
+                                                                            'src/AnalysisExamples/SusyAnalysis/src',
+                                                                            'src/AnalysisExamples/SusyAnalysis/interface'
+                                                                          ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/POOL_bootsrc' => [
+                                                                                                  33261,
+                                                                                                  1192370084
+                                                                                                ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/SEAL_bootsrc' => [
+                                                                                                  33261,
+                                                                                                  1192370084
+                                                                                                ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/Self' => [
+                                                                                          33261,
+                                                                                          1192370084
+                                                                                        ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/requirements' => [
+                                                                                                  33261,
+                                                                                                  1192370084
+                                                                                                ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/CORAL_requirements' => [
+                                                                                                        33261,
+                                                                                                        1192370084
+                                                                                                      ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/CMSSW_requirements' => [
+                                                                                                        33261,
+                                                                                                        1192370084
+                                                                                                      ],
+                                   'src' => [
+                                              16877,
+                                              1192370231,
+                                              'src/AnalysisExamples'
+                                            ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/CORAL_bootsrc' => [
+                                                                                                   33261,
+                                                                                                   1192370084
+                                                                                                 ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/POOL_requirements' => [
+                                                                                                       33261,
+                                                                                                       1192370084
+                                                                                                     ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/SCRAM/Plugins' => [
+                                                                                                   16877,
+                                                                                                   1192370084
+                                                                                                 ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config' => [
+                                                                                     16877,
+                                                                                     1192370084,
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/CORAL_requirements',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/requirements',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/POOL_bootsrc',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/POOL_requirements',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/CORAL_bootsrc',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/site',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/CMSSW_requirements',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/SEAL_requirements',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/BuildFile',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/bootsrc',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/scram_version',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/CMSSW_bootsrc',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/boot',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/Self',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/SEAL_bootsrc',
+                                                                                     '/home/nsonmez/newscript/CMSSW_1_5_3/config/SCRAM'
+                                                                                   ],
+                                   'src/AnalysisExamples' => [
+                                                               16877,
+                                                               1192370231,
+                                                               'src/AnalysisExamples/SusyAnalysis'
+                                                             ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/SCRAM' => [
+                                                                                           16877,
+                                                                                           1192370084,
+                                                                                           '/home/nsonmez/newscript/CMSSW_1_5_3/config/SCRAM/Plugins'
+                                                                                         ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/site/sitename' => [
+                                                                                                   33261,
+                                                                                                   1192370084
+                                                                                                 ],
+                                   '/home/nsonmez/newscript/CMSSW_1_5_3/config/scram_version' => [
+                                                                                                   33261,
+                                                                                                   1192370084
+                                                                                                 ],
+                                   'src/AnalysisExamples/SusyAnalysis/test' => [
+                                                                                 16877,
+                                                                                 1192370231
+                                                                               ]
+                                 },
+                   'CONFIGCACHE' => {
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/SEAL_requirements' => [
+                                                                                                          1,
+                                                                                                          1192370084
+                                                                                                        ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/bootsrc' => [
+                                                                                                1,
+                                                                                                1192370084
+                                                                                              ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/CMSSW_bootsrc' => [
+                                                                                                      1,
+                                                                                                      1192370084
+                                                                                                    ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/BuildFile' => [
+                                                                                                  1,
+                                                                                                  1192370084
+                                                                                                ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/boot' => [
+                                                                                             1,
+                                                                                             1192370084
+                                                                                           ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/POOL_bootsrc' => [
+                                                                                                     1,
+                                                                                                     1192370084
+                                                                                                   ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/Self' => [
+                                                                                             1,
+                                                                                             1192370084
+                                                                                           ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/SEAL_bootsrc' => [
+                                                                                                     1,
+                                                                                                     1192370084
+                                                                                                   ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/requirements' => [
+                                                                                                     1,
+                                                                                                     1192370084
+                                                                                                   ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/CORAL_requirements' => [
+                                                                                                           1,
+                                                                                                           1192370084
+                                                                                                         ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/CMSSW_requirements' => [
+                                                                                                           1,
+                                                                                                           1192370084
+                                                                                                         ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/CORAL_bootsrc' => [
+                                                                                                      1,
+                                                                                                      1192370084
+                                                                                                    ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/POOL_requirements' => [
+                                                                                                          1,
+                                                                                                          1192370084
+                                                                                                        ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/scram_version' => [
+                                                                                                      1,
+                                                                                                      1192370084
+                                                                                                    ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/config/site/sitename' => [
+                                                                                                      1,
+                                                                                                      1192370084
+                                                                                                    ],
+                                      '/home/nsonmez/newscript/CMSSW_1_5_3/.SCRAM/slc4_ia32_gcc345/ToolCache.db' => [
+                                                                                                                      1,
+                                                                                                                      1192370085
+                                                                                                                    ]
+                                    },
+                   'STATUS' => 0,
+                   'BFCACHE' => {
+                                  '/home/nsonmez/newscript/CMSSW_1_5_3/config/BuildFile' => [
+                                                                                              1,
+                                                                                              1192370084
+                                                                                            ],
+                                  'src/AnalysisExamples/SusyAnalysis/BuildFile' => [
+                                                                                     1,
+                                                                                     1192370231
+                                                                                   ]
+                                },
+                   'STATUSSRC' => 0,
+                   'CACHENAME' => '/home/nsonmez/newscript/CMSSW_1_5_3/.SCRAM/DirCache.db',
+                   'ALLDIRS' => [
+                                  'src/AnalysisExamples/SusyAnalysis/interface',
+                                  'src/AnalysisExamples/SusyAnalysis/src',
+                                  'src/AnalysisExamples/SusyAnalysis',
+                                  'src',
+                                  'src/AnalysisExamples',
+                                  'src/AnalysisExamples/SusyAnalysis/test'
+                                ],
+                   'REMOVEDATA' => []
+                 }, 'Cache::Cache' );

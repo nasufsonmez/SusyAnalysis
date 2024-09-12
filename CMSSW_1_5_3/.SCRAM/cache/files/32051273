@@ -1,0 +1,7 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=toprex421 version=1.0>
+ <lib name=toprex421>
+ <use name=genser>
+ <use name=f77compiler>
+</Tool>

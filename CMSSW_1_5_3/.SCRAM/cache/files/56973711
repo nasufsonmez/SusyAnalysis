@@ -1,0 +1,24 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=CLHEP version=1.9.2.3>
+<info url=http://wwwinfo.cern.ch/asd/lhc++/clhep></info>
+<lib name=CLHEP-Cast-1.9.2.3>
+<lib name=CLHEP-Evaluator-1.9.2.3>
+<lib name=CLHEP-Exceptions-1.9.2.3>
+<lib name=CLHEP-GenericFunctions-1.9.2.3>
+<lib name=CLHEP-Geometry-1.9.2.3>
+<lib name=CLHEP-Matrix-1.9.2.3>
+<lib name=CLHEP-Random-1.9.2.3>
+<lib name=CLHEP-RandomObjects-1.9.2.3>
+<lib name=CLHEP-RefCount-1.9.2.3>
+<lib name=CLHEP-Vector-1.9.2.3>
+<Client>
+<Environment name=CLHEP_BASE>
+</Environment>
+<Environment name=LIBDIR default="$CLHEP_BASE/lib">
+</Environment>
+<Environment name=INCLUDE default="$CLHEP_BASE/include">
+</Environment>
+</Client>
+<Runtime name=CLHEP_PARAM_PATH value="$CLHEP_BASE">
+</Tool>

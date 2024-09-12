@@ -1,0 +1,14 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=OpenSSL version=0.9.7d>
+<lib name=ssl>
+<lib name=crypto>
+<client>
+ <Environment name=OPENSSL_BASE>
+ </Environment>
+ <Environment name=INCLUDE default="$OPENSSL_BASE/include">
+ </Environment>
+ <Environment name=LIBDIR  default="$OPENSSL_BASE/lib">
+ </Environment>
+</client>
+</Tool>

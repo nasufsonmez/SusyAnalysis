@@ -1,0 +1,9 @@
+# -*- toolbox -*-
+<Tool name=KCacheGrind version=0.4.6-cmsp1>
+<Client>
+ <Environment name=KCACHEGRIND_BASE>
+ </Environment>
+</Client>
+<use name=qt>
+<Runtime name=PATH value="$KCACHEGRIND_BASE/bin" type=path>
+</Tool>

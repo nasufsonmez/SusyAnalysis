@@ -1,0 +1,14 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=jpeg version=6b>
+<info url=http://www.ijg.org/></info>
+<lib name=jpeg>
+<Client>
+ <Environment name=JPEG_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$JPEG_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$JPEG_BASE/include">
+ </Environment>
+</Client>
+</Tool>

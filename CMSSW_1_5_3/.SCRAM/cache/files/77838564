@@ -1,0 +1,13 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=Castor version=2.1.1-4>
+<lib name=shift>
+<Client>
+ <Environment name=CASTOR_BASE>
+ </Environment>
+ <Environment name=INCLUDE default="$CASTOR_BASE/include">
+ </Environment>
+ <Environment name=LIBDIR default="$CASTOR_BASE/lib">
+ </Environment>
+</Client>
+</Tool>

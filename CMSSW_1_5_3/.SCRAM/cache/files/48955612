@@ -1,0 +1,13 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=dcap version=1.2.35>
+<lib name=dcap>
+<Client>
+ <Environment name=DCAP_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$DCAP_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$DCAP_BASE/include">
+ </Environment>
+</Client>
+</Tool>

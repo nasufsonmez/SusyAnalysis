@@ -1,0 +1,9 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=doxygen version=1.4.1>
+<Client>
+ <Environment name=DOXYGEN_BASE>
+ </Environment>
+</Client>
+<Runtime name=PATH value="$DOXYGEN_BASE/bin" type=path>
+</Tool>

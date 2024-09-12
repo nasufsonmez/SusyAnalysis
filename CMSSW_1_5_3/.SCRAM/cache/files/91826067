@@ -1,0 +1,14 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=Hector version=1_3_2>
+<info url=http://www.fynu.ucl.ac.be/themes/he/ggamma/hector/></info>
+<lib name=Hector>
+<client>
+ <Environment name=HECTOR_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$HECTOR_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$HECTOR_BASE/include">
+ </Environment>
+</client>
+</Tool>

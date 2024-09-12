@@ -1,0 +1,15 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=HepMC version=2.00.02>
+<lib name=HepMCfio>
+<lib name=HepMC>
+<Client>
+ <Environment name=HEPMC_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$HEPMC_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$HEPMC_BASE/include">
+ </Environment>
+</Client>
+<use name=CLHEP>
+</Tool>

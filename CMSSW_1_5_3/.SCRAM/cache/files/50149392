@@ -1,0 +1,9 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=gccxml version=0.6.0>
+<Client>
+<Environment name=GCCXML_BASE>
+</Environment>
+</Client>
+<Runtime name=PATH value="$GCCXML_BASE/bin" type=path>
+</Tool>

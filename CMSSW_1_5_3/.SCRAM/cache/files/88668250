@@ -1,0 +1,22 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=ROOTCore version=5.14.00e>
+<info url=http://root.cern.ch/root/></info>
+<lib name=Cint>
+<lib name=Core>
+<lib name=Tree>
+<Client>
+ <Environment name=ROOTCORE_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$ROOTCORE_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$ROOTCORE_BASE/include">
+ </Environment>
+ <Environment name=INCLUDE default="$ROOTCORE_BASE/cint">
+ </Environment>
+</Client>
+<use name=sockets>
+<Runtime name=PATH value="$ROOTCORE_BASE/bin" type=path>
+<Runtime name=ROOTSYS value="$ROOTCORE_BASE/">
+<Runtime name=PYTHONPATH value="$ROOTCORE_BASE/lib" type=path>
+</Tool>

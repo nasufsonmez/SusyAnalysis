@@ -1,0 +1,11 @@
+# -*- toolbox -*-
+<Tool name=valgrind version=3.2.3-cms1>
+<Client>
+ <Environment name=VALGRIND_BASE>
+ </Environment>
+ <Environment name=INCLUDE default="$VALGRIND_BASE/include">
+ </Environment>
+</Client>
+<Runtime name=PATH value="$VALGRIND_BASE/bin" type=path>
+<Runtime name=VALGRIND_LIB value="$VALGRIND_BASE/lib/valgrind">
+</Tool>

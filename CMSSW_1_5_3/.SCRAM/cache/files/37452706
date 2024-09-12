@@ -1,0 +1,13 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=mimetic version=0.8.9>
+<lib name=mimetic>
+<Client>
+ <Environment name=MIMETIC_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$MIMETIC_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$MIMETIC_BASE/include">
+ </Environment>
+</Client>
+</Tool>

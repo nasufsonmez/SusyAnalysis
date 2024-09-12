@@ -1,0 +1,16 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=expat version=2.0.0>
+<Lib name=expat>
+<Client>
+ <Environment name=EXPAT_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$EXPAT_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$EXPAT_BASE/include">
+ </Environment>
+ <Environment name=BINDIR default="$EXPAT_BASE/bin">
+ </Environment>
+</Client>
+<Runtime name=PATH value="$BINDIR" type=path>
+</Tool>

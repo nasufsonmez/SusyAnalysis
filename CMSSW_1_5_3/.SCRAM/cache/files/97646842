@@ -1,0 +1,8 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=tauola27_121_1 version=1.0>
+ <lib name=tauola27.121.1>
+ <lib name=tauola27.121.1_aux1>
+ <use name=genser>
+ <use name=f77compiler>
+</Tool>

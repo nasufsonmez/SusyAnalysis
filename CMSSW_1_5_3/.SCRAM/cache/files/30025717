@@ -1,0 +1,14 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=Graphviz version=1.9>
+<info url=http://www.research.att.com/sw/tools/graphviz/></info>
+<Client>
+ <Environment name=GRAPHVIZ_BASE>
+ </Environment>
+ <Environment name=GRAPHVIZ_BINDIR default="$GRAPHVIZ_BASE/bin">
+ </Environment>
+ <Environment name=LIBDIR default="$GRAPHVIZ_BASE/lib/graphviz">
+ </Environment>
+</Client>
+<Runtime name=PATH value="$GRAPHVIZ_BINDIR" type=path>
+</Tool>

@@ -1,0 +1,17 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=Qt version=3.3.6>
+<info url=http://www.trolltech.com/products/qt.html></info>
+<LIB name=qt-mt>
+<Client>
+<Flags CPPDEFINES="QT_ALTERNATE_QTSMANIP QT_CLEAN_NAMESPACE QT_THREAD_SUPPORT">
+<Environment name=QT_BASE>
+</Environment>
+<Environment name=LIBDIR default="$QT_BASE/lib">
+</Environment>
+<Environment name=INCLUDE default="$QT_BASE/include">
+</Environment>
+</Client>
+<Runtime name=PATH value="$QT_BASE/bin" type=path>
+<use name=X11>
+</Tool>

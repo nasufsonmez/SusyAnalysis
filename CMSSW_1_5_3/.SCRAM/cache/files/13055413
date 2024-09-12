@@ -1,0 +1,15 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=frontier_client version=2.7.2>
+<lib name=frontier_client>
+<client>
+ <Environment name=FRONTIER_CLIENT_BASE>
+ </Environment>
+ <Environment name=INCLUDE default="$FRONTIER_CLIENT_BASE/include">
+ </Environment>
+ <Environment name=LIBDIR  default="$FRONTIER_CLIENT_BASE/lib">
+ </Environment>
+</client>
+<use name=zlib>
+<use name=expat>
+</Tool>

@@ -1,0 +1,15 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=Boost_python version=1.33.1>
+<info url=http://www.boost.org></info>
+<lib name=boost_python-gcc-mt>
+<Client>
+ <Environment name=BOOST_PYTHON_BASE>The top of the Boost Python distribution.</Environment>
+ <Environment name=PYSTE_EXEC default="$BOOST_PYTHON_BASE/lib/python2.4/site-packages/Pyste/pyste.py"></Environment>
+ <Environment name=LIBDIR default="$BOOST_PYTHON_BASE/lib"></Environment>
+ <Environment name=INCLUDE default="$BOOST_PYTHON_BASE/include"></Environment>
+</Client>
+<use name=elementtree>
+<use name=gccxml>
+<use name=python>
+</Tool>

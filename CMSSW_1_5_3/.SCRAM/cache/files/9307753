@@ -1,0 +1,5 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=OpenInventor version=coin3d>
+ <use name=Coin3D>
+</Tool>

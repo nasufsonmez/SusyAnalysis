@@ -1,0 +1,8 @@
+# -*-toolbox-*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=ROOTInteractive version=5.14.00e>
+<lib name=Rint>
+<lib name=GQt>
+<use name=qt>
+<use name=ROOT>
+</Tool> 

@@ -1,0 +1,19 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=ROOTRflx version=5.14.00e>
+<info url=http://root.cern.ch/root/></info>
+<lib name=Reflex>
+<Client>
+ <Environment name=ROOTRFLX_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$ROOTRFLX_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$ROOTRFLX_BASE/include">
+ </Environment>
+</Client>
+<use name=sockets>
+<use name=gccxml>
+<Runtime name=PATH value="$ROOTRFLX_BASE/bin" type=path>
+<Runtime name=ROOTSYS value="$ROOTRFLX_BASE/">
+<Runtime name=GENREFLEX value="$ROOTRFLX_BASE/bin/genreflex">
+</Tool>

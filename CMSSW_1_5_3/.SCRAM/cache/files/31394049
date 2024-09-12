@@ -1,0 +1,22 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.1>
+<Tool name=OVAL version=3_5_0>
+<Client>
+ <Environment name=OVAL_BASE>
+ </Environment>
+</Client>
+
+<Architecture name=slc3_ia32_gcc323>
+ <Runtime name=OVAL_FLAVOR value="Linux">
+</Architecture>
+
+<Architecture name=slc3_amd64_gcc323>
+ <Runtime name=OVAL_FLAVOR value="Linux">
+</Architecture>
+
+<Architecture name=osx103_gcc33>
+ <Runtime name=OVAL_FLAVOR value="osx">
+</Architecture>
+
+<runtime name=PATH value="$OVAL_BASE/bin" type=path>
+</Tool>

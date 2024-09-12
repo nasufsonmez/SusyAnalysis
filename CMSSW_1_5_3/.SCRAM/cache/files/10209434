@@ -1,0 +1,16 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=FastJet version=2.1.0>
+<info url=http://www.lpthe.jussieu.fr/~salam/fastjet/></info>
+<lib name=SISConePlugin>
+<lib name=CDFConesPlugin>
+<lib name=fastjet>
+<client>
+ <Environment name=FASTJET_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$FASTJET_BASE/lib">
+ </Environment>
+ <Environment name=INCLUDE default="$FASTJET_BASE/include">
+ </Environment>
+</client>
+</Tool>

@@ -1,0 +1,11 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=RuleChecker version=2.6>
+<Client>
+ <Environment name=RULECHECKER_BASE>
+ </Environment>
+</Client>
+<Runtime name=CLASSPATH value="$RULECHECKER_BASE" type=path>
+<Runtime name=RULECHECKER_PREPROCESS_EXT value="i">
+<Runtime name=RULECHECKER_VIOLATION_EXT value="viol">
+</Tool>

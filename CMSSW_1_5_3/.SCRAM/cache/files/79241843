@@ -1,0 +1,39 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.1>
+<Tool name=Sockets version=1.0>
+
+<Architecture name=slc3_ia32_gcc323>
+ <lib name=nsl>
+ <lib name=crypt>
+ <lib name=dl>
+</Architecture>
+
+<Architecture name=slc4_ia32_gcc345>
+ <lib name=nsl>
+ <lib name=crypt>
+ <lib name=dl>
+</Architecture>
+
+<Architecture name=slc4_amd64_gcc345>
+ <lib name=nsl>
+ <lib name=crypt>
+ <lib name=dl>
+</Architecture>
+
+<Architecture name=slc4_ia32_gcc412>
+ <lib name=nsl>
+ <lib name=crypt>
+ <lib name=dl>
+</Architecture>
+
+<Architecture name=slc4_amd64_gcc412>
+ <lib name=nsl>
+ <lib name=crypt>
+ <lib name=dl>
+</Architecture>
+
+<Architecture name=osx104_ppc_gcc40>
+ <lib name=dl>
+</Architecture>
+
+</Tool>

@@ -1,0 +1,16 @@
+# -*- toolbox -*-
+<doc type=BuildSystem::ToolDoc version=1.0>
+<Tool name=mysql version=5.0.18>
+<Lib name=mysqlclient>
+<Client>
+ <Environment name=MYSQL_BASE>
+ </Environment>
+ <Environment name=LIBDIR default="$MYSQL_BASE/lib/mysql">
+ </Environment>
+ <Environment name=MYSQL_BINDIR default="$MYSQL_BASE/bin">
+ </Environment>
+ <Environment name=INCLUDE default="$MYSQL_BASE/include">
+ </Environment>
+</Client>
+<Runtime name=PATH value="$MYSQL_BINDIR" type=path>
+</Tool>
