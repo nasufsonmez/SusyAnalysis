@@ -1,0 +1,1 @@
+#This is an analysis code written in CMSSW153. It analyses the MC simulation data, to check the number of certain channels in proton proton collisions. It is an analysis used to distinguish right handed squarks decay to LSP/Neutralino and quarks.
